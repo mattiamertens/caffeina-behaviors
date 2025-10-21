@@ -1,0 +1,194 @@
+a {
+    text-decoration: none;
+}
+/* TEMPLATE */
+.w-100{
+    width: 100%;
+}
+.h-100{
+    height: 100%;
+}
+.ww-100{
+    width: 100vw;
+}
+.vh-100{
+    height: 100vh;
+}
+.dvh{
+    height: 100dvh;
+}
+.min-w-92px{
+    min-width: 92px;
+}
+.z-10{
+    z-index: 10;
+}
+.fit-content{
+    width: fit-content;
+}
+.overflow-y{
+    overflow-y: scroll;
+}
+
+/* FLEXBOX */
+.flex{
+    display: flex;
+}
+.flex-display-center-center{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: center; /* all children on cross axis - vertical center*/
+    justify-content: center; /* main axis of conatiner - H */
+}
+.flex-display-center-start{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: center; /* all children on cross axis - vertical center*/
+    justify-content: flex-start; /* main axis of conatiner - H */
+}
+.flex-display-center-sb{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: center; /* all children on cross axis - vertical center*/
+    justify-content: space-between; /* main axis of conatiner - H */
+}
+.flex-display-center-end{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: center; /* all children on cross axis - vertical center*/
+    justify-content: flex-end; /* main axis of conatiner - H */
+}
+.flex-display-start-center{
+    display: flex;
+    align-content: flex-start; /* cross axis of container - V */
+    align-items: flex-start; /* all children on cross axis - vertical center*/
+    justify-content: center; /* main axis of conatiner - H */
+}
+.flex-display-start-start{
+    display: flex;
+    align-content: flex-start; /* cross axis of container - V */
+    align-items: flex-start; /* all children on cross axis - vertical center*/
+    justify-content: start; /* main axis of conatiner - H */
+}
+.flex-display-sa-start{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: flex-start; /* all children on cross axis - vertical center*/
+    justify-content: space-around; /* main axis of conatiner - H */
+}
+.flex-display-sa-center{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: center; /* all children on cross axis - vertical center*/
+    justify-content: space-around; /* main axis of conatiner - H */
+}
+.flex-display-sb-center{
+    display: flex;
+    align-content: center; /* cross axis of container - V */
+    align-items: center; /* all children on cross axis - vertical center*/
+    justify-content: space-between; /* main axis of conatiner - H */
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.v-center{
+    align-items: center;
+}
+.h-center{
+    justify-content: center;
+}
+.baseline{
+    align-items: baseline;
+}
+.g-8{
+    gap: 8px;
+}
+.g-16{
+    gap: 16px;
+}
+.g-24{
+    gap: 24px;
+}
+
+.p-16{
+    padding: 16px;
+}
+
+/* TEXT */
+.m-text{
+    font-size: 16px;
+}
+.s-text{
+    font-size: 14px;
+}
+.xs-text{
+    font-size: 12px;
+}
+.bold{
+    font-weight: 500;
+}
+.extra{
+    font-weight: 900;
+}
+.underlined{
+    text-decoration: underline;
+}
+.muted-text{
+    color: #353535 !important;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* SVG ICONS */
+.icon{
+    background-color: var(--neutral_black);
+    mask-size: cover;
+    mask-repeat: no-repeat;
+}
+.icon-s{
+    width: 16px;
+    height: 16px;
+}
+.icon-m{
+    width: 24px;
+    height: 24px;
+}
+.icon-l{
+    width: 32px;
+    height: 32px;
+}
+.muted-icon{
+    background-color: var(--neutral_dk-grey);
+    color: var(--neutral_dk-grey);
+}
+.colored-icon{
+    background-color: var(--violet);
+}
+.mask-image{
+    mask-size: contain;
+    background-size: contain;
+}
+
+/* POSITIONING */
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+    left: 0;
+    width: -webkit-fill-available;
+    font-size: 18px;
+    z-index: 100;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
