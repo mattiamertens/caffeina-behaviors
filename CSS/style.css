@@ -1,40 +1,40 @@
 @font-face {
     font-family: 'Apfel Grotesk';
-    src: url('fonts/AG/ApfelGrotezk-Regular.woff2') format('woff2'),
-        url('fonts/AG/ApfelGrotezk-Regular.woff') format('woff');
+    src: url('../fonts/AG/ApfelGrotezk-Regular.woff2') format('woff2'),
+        url('../fonts/AG/ApfelGrotezk-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Apfel Grotesk';
-    src: url('fonts/AG/ApfelGrotezk-Mittel.woff2') format('woff2'),
-        url('fonts/AG/ApfelGrotezk-Mittel.woff') format('woff');
+    src: url('../fonts/AG/ApfelGrotezk-Mittel.woff2') format('woff2'),
+        url('../fonts/AG/ApfelGrotezk-Mittel.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Apfel Grotesk';
-    src: url('fonts/AG/ApfelGrotezk-Satt.woff2') format('woff2'),
-        url('fonts/AG/ApfelGrotezk-Satt.woff') format('woff');
+    src: url('../fonts/AG/ApfelGrotezk-Satt.woff2') format('woff2'),
+        url('../fonts/AG/ApfelGrotezk-Satt.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Apfel Grotesk';
-    src: url('fonts/AG/ApfelGrotezk-Brukt.woff2') format('woff2'),
-        url('fonts/AG/ApfelGrotezk-Brukt.woff') format('woff');
+    src: url('../fonts/AG/ApfelGrotezk-Brukt.woff2') format('woff2'),
+        url('../fonts/AG/ApfelGrotezk-Brukt.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
 
 :root{
-    --icon-previous: url('../assets/icons/previous.svg');
-    --icon-next: url('../assets/icons/next.svg');
-    --icon-play: url('../assets/icons/play.svg');
+    --icon-previous: url('./icons/previous.svg');
+    --icon-next: url('./icons/next.svg');
+    --icon-play: url('./icons/play.svg');
 
     --neutral_black: #000000;
     --neutral_dk-grey: #353535;
@@ -59,14 +59,14 @@
 
     --navbar-h: 46px;
 
-    --icon-favorites: url('../assets/icons/favorites.svg');
-    --icon-favorites-filled: url('../assets/icons/type=heart.svg');
-    --icon-close: url('../assets/icons/type=close_line.svg');
-    --icon-dayType: url('../assets/icons/type=copper_coin_line.svg');
-    --icon-date: url('../assets/icons/type=calendar.svg');
-    --icon-time: url('../assets/icons/type=time.svg');
-    --icon-extLink: url('../assets/icons/type=out_link.svg');
-    --icon-alert: url('../assets/icons/type=alert.svg');
+    --icon-favorites: url('./icons/favorites.svg');
+    --icon-favorites-filled: url('./icons/type=heart.svg');
+    --icon-close: url('./icons/type=close_line.svg');
+    --icon-dayType: url('./icons/type=copper_coin_line.svg');
+    --icon-date: url('./icons/type=calendar.svg');
+    --icon-time: url('./icons/type=time.svg');
+    --icon-extLink: url('./icons/type=out_link.svg');
+    --icon-alert: url('./icons/type=alert.svg');
 }
 
 

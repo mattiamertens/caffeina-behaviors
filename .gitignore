@@ -16,7 +16,7 @@ devextreme-license.ts
 
 # next.js
 /.next/
-/dist/
+/dist
 
 # production
 /build

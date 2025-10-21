@@ -117,7 +117,7 @@ var elefantino;
 function loadOBJ() {
     return new Promise((resolve, reject) =>{
         const objLoader = new OBJLoader();
-        objLoader.load('../assets/elefantino.obj', (loadedModel) => {
+        objLoader.load('./elefantino.obj', (loadedModel) => {
             elefantino = loadedModel;
             elefantino.traverse( function(child) {
                 if (child.isMesh) {
@@ -163,7 +163,7 @@ for (let i=0; i<companyFit.length; i++){
     const label = new Text();
     label.text = sphere.userData.keyword.toString();
     label.fontSize = 0.2;
-    label.font = 'CSS/fonts/AG/ApfelGrotezk-Fett.woff';
+    label.font = './fonts/AG/ApfelGrotezk-Fett.woff';
     label.color = 0x0000ff;
     label.position.set(x, y-0.3, z);
     label.anchorX = 'center';
